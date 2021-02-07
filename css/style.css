@@ -7,7 +7,6 @@ body{
 }
 div #wrapper{
     max-width: 70%;
-
     background-color: blue;
 }
 div#barra{
@@ -36,9 +35,14 @@ ul#top li{
     padding:5px;
     float: right;
 }
-div#banner{
-    width: 70%;
-}
-p{
-    max-width: 70%;   
-}
+ div #banner{
+    background-color: blue;
+    width: 100%;
+    height: 40px;   
+    margin: 10px;
+ }   
+ section.seccao1{
+     position:relative;
+     display: inline-block;
+     
+ }
