@@ -36,8 +36,9 @@ ul#top li{
     padding:5px;
     float: right;
 }
-
+div#banner{
+    width: 70%;
+}
 p{
-    max-width: 70%;
-    
+    max-width: 70%;   
 }
