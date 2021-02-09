@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body{
-    background-color: pink;
+    background-color: white;
     padding: 0 10%;
 
 }
@@ -19,8 +19,8 @@ div#barra{
 }
 figure{
     position: absolute;
-    left: 10%;
-    top: 5%;
+    left: 15%;
+    top: 7%;
 }
 div#menu{
     
@@ -29,15 +29,32 @@ div#menu{
     display: inline-block;
        
 }
+div#menu li a{
+    color: #b6185e;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:8px;
+    font-size: 16pt;
+    margin-left: 20px;
+}
 ul#top{
     float: right;
     padding:5px;
-    width:60%;
+    width:70%;
+    margin-right: 10px;
+    display: flexbox;
+    
 }
 ul#top li{
     display: inline;
     padding:5px;
     float: right;
+    
+}
+ul#top li:hover a{       
+   border-bottom-style:solid;
+   border-bottom-color:#ffef0d;
+   padding-bottom: 23px;   
 }
  div #banner{
     background-color: blue;
