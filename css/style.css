@@ -67,4 +67,23 @@ ul#top li:hover a{
      padding: 0%;
      margin: 0%;  
  }
+ h1{
+     
+     text-transform: uppercase;
+     margin: ;
+ }
+ h2{
+    
+    text-transform: uppercase;
+    font-size: 16px;
+ }
+ section#corpo2{
+    display: block;
+    width: 600px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 30px;
+    padding-left: 20px;
+    box-sizing: border-box;
+ }
  
