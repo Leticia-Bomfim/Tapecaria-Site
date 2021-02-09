@@ -9,6 +9,9 @@ div #wrapper{
     max-width: 70%;
     background-color: blue;
 }
+header{
+    margin-bottom: -4px;
+}
 div#barra{
     background-color: black;
     width: 100%;
@@ -24,7 +27,7 @@ div#menu{
     width: 100%;
     background-image: linear-gradient(black,gray,white, white);
     display: inline-block;
-    
+       
 }
 ul#top{
     float: right;
