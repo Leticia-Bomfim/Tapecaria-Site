@@ -52,14 +52,13 @@ ul#top li{
     
 }
 ul#top li:hover a{       
+    border-bottom: 5px;
    border-bottom-style:solid;
    border-bottom-color:#ffef0d;
-   padding-bottom: 23px;   
+   padding-bottom: 20px;   
 }
- div #banner{
-    background-color: blue;
-    width: 100%;
-   
+ div #banner{    
+    width: 100%;   
  }   
  section.seccao1{
      position:relative;
