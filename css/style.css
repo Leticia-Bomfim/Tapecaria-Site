@@ -60,14 +60,16 @@ ul#top{
 ul#top li{
     display: inline;
     padding:5px;
-    float: right;
+    float: right;    
     
 }
 ul#top li:hover a{       
     border-bottom: 5px;
    border-bottom-style:solid;
    border-bottom-color:#ffef0d;
-   padding-bottom: 20px;   
+   padding-bottom: 20px; 
+   transition: 0.5s ease;  
+   
 }
 @media screen and (max-width:600px){
     ul#top li:hover a{            
